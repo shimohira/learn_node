@@ -5,5 +5,5 @@ import test from 'routes/routers/test_router'
 export default (app) => {
   app.use('/', homepage)
   app.use('/listing', listing)
-  app.use('/test', listing)
+  app.use('/test', test)
 }

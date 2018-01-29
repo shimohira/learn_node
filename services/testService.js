@@ -31,6 +31,16 @@ class TestService {
         let oke2 = await this.getlisting2(oke1);
         return oke2;
     }
+
+    promise(){
+        return new Promise((resolve) => {
+            this.getlisting1().then((result) => {
+                this.getlisting2(result).then((res)=>{
+                    resolve(res);
+                })
+            })
+        })
+    }
 }
 
 export default new TestService();
