@@ -1,17 +1,17 @@
-import { setTimeout } from "timers";
-import { resolve } from "path";
+import { setTimeout } from 'timers'
+import { resolve } from 'path'
 
 class ListingService {
-    constructor(){
+  constructor () {
 
-    }
+  }
 
-    getListing(){
-        return {
-            number:1,
-            listing:"listing pertama"
-        };
+  getListing () {
+    return {
+      number: 1,
+      listing: 'listing pertama'
     }
+  }
 }
 
-export default new ListingService();
+export default new ListingService()

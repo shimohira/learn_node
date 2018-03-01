@@ -7,3 +7,11 @@ export const promiseAsync = async (req, res, next) => {
   console.log(test1);
   res.send(test)
 }
+
+export const IIFE = async (req, res, next) => {
+  let oke = ((bisa)=> {
+    console.log("oke");
+  })(this);
+  console.log(oke)
+  res.send({IIFE:true})
+}
