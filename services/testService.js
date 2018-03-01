@@ -1,10 +1,9 @@
 import { setTimeout } from 'timers'
-import { resolve } from 'path'
 
 class TestService {
-  constructor () {
+  // constructor () {
 
-  }
+  // }
 
   getlisting1 () {
     return new Promise((resolve) => {
@@ -16,10 +15,10 @@ class TestService {
   }
 
   getlisting2 (id) {
-    return new Promise((res) => {
+    return new Promise((resolve) => {
       setTimeout(() => {
         console.log('dapet 2')
-        res({
+        resolve({
           number: id
         })
       }, 2000)
