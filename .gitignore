@@ -3,3 +3,4 @@ node_modules/*
 !node_modules/services
 !node_modules/routes
 !node_modules/dao
+**/*config.json

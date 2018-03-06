@@ -1,0 +1,5 @@
+{
+  "solrHost": "127.0.0.1",
+  "solrPort": "8080",
+  "solrPath": "/solr-slave"
+}

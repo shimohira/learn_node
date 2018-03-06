@@ -20,7 +20,8 @@
   "homepage": "https://github.com/shimohira/learn_node#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "solr-client": "^0.7.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
